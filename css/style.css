@@ -1,0 +1,109 @@
+body{
+  direction: rtl;
+  text-align: right;
+  margin:0px;
+}
+*{
+font-family: Vazir;
+margin:0px;
+}
+.superHero{
+  background: url('../image/0.jpg') no-repeat;
+  width: 100%;
+  height: 990px;
+  margin: 0 auto;
+}
+.superHero h1{
+  color:#fff;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 80px;
+  font-size: 80px;
+  font-weight: 100;
+}
+.superHero >p{
+  width:100%;
+  height: 100px;
+  text-align: center;
+  font-size: 21px;
+  color:#c4c2bf;
+  line-height: 30px;
+}
+.superHero .formBox{
+  border:1px solid #5e5950;
+  border-radius: 5px;
+  width: 970px;
+  height: 250px;
+  margin-top:110px;
+  margin-left:auto;
+  margin-right:auto;
+  }
+  .superHero .formBox h2{
+    text-align: center;
+    color:#dad9d8;
+    margin-top:60px;
+    font-size: 21px;
+    font-weight: 70;
+  }
+  .superHero .formBox >p{
+    text-align: center;
+    font-size: 16px;
+    color: #bfbaaf;
+    line-height: 50px;
+  }
+  .superHero .formBox .textInput{
+    width: 300px;
+    height: 48px;
+    border: 1px solid #5e5950;
+    border-radius: 5px;
+    margin-right: 40px;
+    line-height: 48px;
+    color:#5e5950;
+
+
+  }
+  .superHero .formBox .submitBox{
+    border-radius: 5px;
+    width: 130px;
+    height: 49px;
+    background-color: #fff;
+  }
+  .product{
+    width: 100%;
+    height: 710px;
+    text-align: center;
+  }
+  .product >h2{
+    margin-top: 80px;
+    font-size: 16px;
+    margin-bottom: 35px;
+    font-weight: 40;
+  }
+  .product >h1{
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 40px;
+    
+  }
+  .product .productBox{
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top:120;
+  }
+  .product .productBox .row{
+    display:flex;
+  }
+  .product .productBox .row div{
+    display: flex;
+  
+  }
+  .product .productBox .row div .cardDesc{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+
+
